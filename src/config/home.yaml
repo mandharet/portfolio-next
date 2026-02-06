@@ -1,0 +1,17 @@
+hero:
+  title: "Your Name"
+  subtitle: "Your Professional Title"
+  description: "Your professional tagline - describe what you do and your expertise"
+
+cta:
+  primary:
+    text: "View Projects"
+    link: "/projects"
+    icon: "ArrowRight"
+  secondary:
+    text: "About Me"
+    link: "/about"
+  resume:
+    text: "Resume"
+    link: "/resume.pdf"
+    icon: "FileText"

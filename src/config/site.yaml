@@ -1,0 +1,24 @@
+name: "Your Name"
+title: "Your Professional Title"
+domain: "https://yoursite.com"
+email: "your@email.com"
+location: "Your City, Country"
+description: "Your professional description - highlight your expertise and experience"
+keywords:
+  - "Your Keyword 1"
+  - "Your Keyword 2"
+  - "Your Keyword 3"
+  - "Your Keyword 4"
+  - "Your Keyword 5"
+  - "Your Keyword 6"
+  - "Your Keyword 7"
+  - "Your Keyword 8"
+
+social:
+  github: "https://github.com/yourusername"
+  linkedin: "https://www.linkedin.com/in/yourusername/"
+  twitter: "https://twitter.com/yourusername"
+
+resume:
+  url: "/resume.pdf"
+  enabled: false

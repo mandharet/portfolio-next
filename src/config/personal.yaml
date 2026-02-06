@@ -1,0 +1,11 @@
+email: "your@email.com"
+social:
+  github: "https://github.com/yourusername"
+  linkedin: "https://linkedin.com/in/yourusername"
+  twitter: "https://twitter.com/yourusername"
+
+resume:
+  url: "/resume.pdf"
+  enabled: false
+  title: "Resume"
+  description: "View my professional resume"
