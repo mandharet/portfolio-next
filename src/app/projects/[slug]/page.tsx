@@ -114,7 +114,7 @@ export default async function ProjectDetailPage({
               <Link key={i} href={url} target="_blank">
                 <Button variant="default" size="default">
                   <ExternalLink className="h-4 w-4 mr-2" />
-                  Live Demo {project.link.length > 1 ? i + 1 : ""}
+                  Live Demo {project.link && project.link.length > 1 ? i + 1 : ""}
                 </Button>
               </Link>
             ))}
@@ -122,7 +122,7 @@ export default async function ProjectDetailPage({
               <Link key={i} href={url} target="_blank">
                 <Button variant="default" size="default">
                   <Github className="h-4 w-4 mr-2" />
-                  Source Code {project.github.length > 1 ? i + 1 : ""}
+                  Source Code {project.github && project.github.length > 1 ? i + 1 : ""}
                 </Button>
               </Link>
             ))}
@@ -130,7 +130,7 @@ export default async function ProjectDetailPage({
               <Link key={i} href={url} target="_blank">
                 <Button variant="default" size="default">
                   <FileText className="h-4 w-4 mr-2" />
-                  Paper {project.papers.length > 1 ? i + 1 : ""}
+                  Paper {project.papers && project.papers.length > 1 ? i + 1 : ""}
                 </Button>
               </Link>
             ))}
